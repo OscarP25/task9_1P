@@ -121,7 +121,7 @@ public class ViewTaskTest {
     public void testValidPassUnitSIT333() {
         String result = ViewTaskService.viewTasks("s224526134", "SIT333", "P");
 
-        Assert.assertEquals("Task-1, Task-2, Task-3, Task-4, ", result);
+        Assert.assertEquals("Task-1, Task-2, Task-3, Task-4, Task-5, Task-6", result);
     }
     
     @Test
